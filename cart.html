@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto | E-Shop</title>
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="header">
+      <a href="#"> <img src="img/logo.png" alt="" class="logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="about.html">¿Quienes somos?</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contacto</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+      </div>
+      <div class="mobile">
+        <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+
+    <section class="contact-header">
+      <h2>Queremos saber de ti!</h2>
+      <p>#Contacto E-Shop</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Eliminar</td>
+            <td>Imagen</td>
+            <td>Producto</td>
+            <td>Precio</td>
+            <td>Cantidad</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="#"><i class="fa-solid fa-times-circle"</a></td>
+            <td><img src="img/products/prod1-white.jpg" alt="" /></td>
+            <td>Samsung Galaxy</td>
+            <td>$112.50</td>
+            <td><input type="number" value="1" /></td>
+            <td>$112.50</td>
+          </tr>
+          <tr>
+            <td><a href="#"><i class="fa-solid fa-times-circle"</a></td>
+            <td><img src="img/products/prod1-lightblue.jpg" alt="" /></td>
+            <td>Samsung Galaxy</td>
+            <td>$112.50</td>
+            <td><input type="number" value="1" /></td>
+            <td>$112.50</td>
+          </tr>
+          <tr>
+            <td><a href="#"><i class="fa-solid fa-times-circle"</a></td>
+            <td><img src="img/products/prod1.jpg" alt="" /></td>
+            <td>Samsung Galaxy</td>
+            <td>$112.50</td>
+            <td><input type="number" value="1" /></td>
+            <td>$112.50</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section class="cart-add section-p1">
+      <div class="coupon">
+        <h3>Tengo un cupón de descuento</h3>
+        <div>
+          <input type="text" placeholder="Ingrese su cupón" />
+          <button class="btn-coupon">Enviar</button>
+        </div>
+      </div>
+
+      <div class="subtotal">
+        <h3>Total de la compra</h3>
+        <table>
+          <tr>
+            <td>Subtotal de la compra</td>
+            <td>$ 335</td>
+          </tr>
+          <tr>
+            <td>Envio</td>
+            <td>Gratis</td>
+          </tr>
+          <tr>
+            <td><strong>Total</strong></td>
+            <td><strong> $ 335</strong></td>
+          </tr>
+        </table>
+        <button class="subtotal-button">Finalizar compra</button>
+      </div>
+    </section>
+
+    <footer class="section-p1">
+      <div class="col">
+        <img src="img/logo.png" alt="" class="logo" />
+        <h4>Contacto</h4>
+        <p><strong>Dirección:</strong> Santa Fé Ave, Buenos Aires</p>
+        <p><strong>Teléfono:</strong> +54 11 548 123</p>
+        <p><strong>Horario de atención:</strong>10:00 - 18:00, Lu-Sa</p>
+
+        <div class="follow">
+          <h4>Síguenos</h4>
+          <div class="icon">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <h4>Acerca de</h4>
+        <a href="#">¿Quiénes Somos</a>
+        <a href="#">Información de envios</a>
+        <a href="#">Ayuda con tu compra</a>
+        <a href="#">Soporte Técnico</a>
+        <a href="#">Contacto</a>
+      </div>
+
+      <div class="col">
+        <h4>Mi Cuenta</h4>
+        <a href="#">Sign in</a>
+        <a href="#">Carrito</a>
+        <a href="#">Favoritos</a>
+        <a href="#">Segui tu pedido</a>
+        <a href="#">Ayuda</a>
+      </div>
+
+      <div class="col install">
+        <h4>Instalar App</h4>
+        <p>Desde App Store o Google Play</p>
+        <div class="row">
+          <img src="img/pay/app.jpg" />
+          <img src="img/pay/play.jpg" />
+        </div>
+        <p>Medios de pago seguros</p>
+        <img src="img/pay/pay.png" alt="" />
+      </div>
+
+      <div class="copyright">
+        <p>
+          <i class="fa-regular fa-copyright"></i>2022 Developed by Maruinyork
+        </p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
