@@ -17,6 +17,6 @@ Sitio web inspirado en Samsung, realizado mayormente en HTML, CSS y JS (es está
 
 [![s10.png](https://i.postimg.cc/D0jt9G9M/s10.png)](https://postimg.cc/sGW6SMDY)
 
-[![s5.png](https://i.postimg.cc/VL8MtMnw/s5.png)](https://postimg.cc/V5KdQJKZ)
+[![s5.png](https://i.postimg.cc/mgpMqgp6/s5.png)](https://postimg.cc/rDWKRMkS)
 
-[![s8.png](https://i.postimg.cc/FsCrvX96/s8.png)](https://postimg.cc/vc9F7jx7)
+[![s8.png](https://i.postimg.cc/Ls4fQZVP/s8.png)](https://postimg.cc/nX5CCrgV)
